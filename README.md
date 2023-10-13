@@ -3,7 +3,7 @@
 ## 📦 Sobre el repositorio
 Primer proyecto de Vue 3, en cual veremos las conceptos básicos del framework.
 
-## ✔️ [El respositorio aquí](https://github.com/K3yJey/org.git)
+## ✔️ [El respositorio aquí](https://github.com/K3yJey/vuejs3-test.git)
 
 ## 🔧 Tecnologías utilizadas
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -54,12 +54,6 @@ npm run lint
 ↑ Ejecutar un linter
 
 **IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
-
-## ▶️ Deploy de app
-* Vercel => [Org Page](https://org-k3yjey.vercel.app/)
-
-## 🎨 Diseño en Figma
-* Figma => [Clic aquí](https://www.figma.com/file/70l45ssEH6qBo9IYDe2nxe/Intro-a-React?node-id=134%3A128&t=7I0a4d3jWOfv6dHU-1)
 
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
