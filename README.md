@@ -16,7 +16,9 @@ Proyecto en progreso.
 
 ## ⚙️ Comandos necesarios para la creación de la app React
 
-[NodeJs](https://nodejs.org/) <br/>
+``` console
+[NodeJs](https://nodejs.org/)
+```
 ↑ Descargar la última versión de Nodejs
 
 ``` console 
