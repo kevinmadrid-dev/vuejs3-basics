@@ -1,5 +1,4 @@
 <template>
-  <CounterOption />
   <CounterComposition />
   <PostContainer />
 </template>
