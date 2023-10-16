@@ -1,5 +1,9 @@
-<template></template>
+<template>
+  <ExampleFor />
+</template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import ExampleFor from "./components/Directivas/ExampleFor.vue"
+</script>
 
 <style></style>
