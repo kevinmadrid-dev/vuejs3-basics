@@ -17,3 +17,9 @@ const dropCounter = (): void => {
   counter.value--
 }
 </script>
+
+<style>
+button {
+  margin: 0px 2px;
+}
+</style>
