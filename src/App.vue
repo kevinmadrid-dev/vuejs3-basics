@@ -6,4 +6,4 @@
 import ExampleBind from "./components/Directivas/ExampleBind.vue"
 </script>
 
-<script></script>
+<style></style>
