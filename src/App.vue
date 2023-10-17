@@ -1,5 +1,9 @@
-<template></template>
+<template>
+  <ExampleBind />
+</template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import ExampleBind from "./components/Directivas/ExampleBind.vue"
+</script>
 
 <style></style>
