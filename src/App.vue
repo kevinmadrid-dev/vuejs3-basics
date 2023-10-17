@@ -1,9 +1,9 @@
 <template>
-  <ExampleBind />
+  <ModelFormDirective />
 </template>
 
 <script lang="ts" setup>
-import ExampleBind from "./components/Directivas/ExampleBind.vue"
+import ModelFormDirective from "./components/Directivas/ModelFormDirective.vue"
 </script>
 
 <style></style>
