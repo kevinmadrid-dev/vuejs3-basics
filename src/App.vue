@@ -1,9 +1,9 @@
 <template>
-  <ModelFormDirective />
+  <TeacherComponent />
 </template>
 
 <script lang="ts" setup>
-import ModelFormDirective from "./components/Directivas/ModelFormDirective.vue"
+import TeacherComponent from "./components/TeacherComponent.vue"
 </script>
 
 <style></style>
