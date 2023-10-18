@@ -1,25 +1,52 @@
 <template>
-  <section>
+  <section class="section-form">
     <h3>Añadir profesor</h3>
 
-    <div>
-      <label>Nombres<input type="text" v-model="teacher.teacherName" /></label>
-      <label>Apellidos<input type="text" v-model="teacher.teacherLastName" /></label>
-      <label>DNI<input type="text" v-model="teacher.teacherDni" /></label>
-      <label>Materias<input type="text" v-model="teacherSubject" /></label>
-      <button @click="handleSubject()">Añadir materias</button>
-      <ul>
-        <li v-for="(i_subject, index) in teacher.teacherSubjects" v-bind:key="index">
-          {{ i_subject }}
-        </li>
-      </ul>
+    <div class="container">
+      <div class="div-name">
+        <label>Nombres</label>
+        <input type="text" v-model="teacher.teacherName" />
+      </div>
 
-      <input type="checkbox" v-model="teacher.teacherDocs" /> Documentación entregada
-      <button @click="handleTeacher()">Añadir</button>
+      <div class="div-last_name">
+        <label>Apellidos</label>
+        <input type="text" v-model="teacher.teacherLastName" />
+      </div>
+
+      <div class="div-dni">
+        <label>DNI</label>
+        <input type="text" v-model="teacher.teacherDni" />
+      </div>
+
+      <div class="div-subject">
+        <label>Materias</label>
+        <input type="text" v-model="teacherSubject" />
+        <button @click="handleSubject()">Añadir materias</button>
+      </div>
+
+      <div class="div-list_subject">
+        <ul>
+          <li
+            v-for="(i_subject, index) in teacher.teacherSubjects"
+            v-bind:key="index"
+          >
+            {{ i_subject }}
+          </li>
+        </ul>
+      </div>
+
+      <div class="div-doc">
+        <input type="checkbox" v-model="teacher.teacherDocs" /> Documentación
+        entregada
+      </div>
+
+      <div class="div-register">
+        <button @click="handleTeacher()">Registrar datos</button>
+      </div>
     </div>
   </section>
 
-  <section>
+  <section class="section-list">
     <h3>Listado de profesores</h3>
 
     <table>
@@ -101,6 +128,51 @@ const handleTeacher = () => {
 <style scoped>
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 10px;
   text-align: center;
+}
+
+div {
+  margin: 10px;
+}
+
+label,
+button {
+  display: block;
+}
+
+ul,
+li {
+  list-style-type: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  margin: 10px 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 8px;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 </style>
