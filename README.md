@@ -1,61 +1,38 @@
-# Vue.js - Primeros pasos con VueJs 3
+# VueJS Basics
 
-## 📦 Sobre el repositorio
-Primer proyecto de Vue 3, en cual veremos las conceptos básicos del framework.
+### Description
 
-## ✔️ [El respositorio aquí](https://github.com/K3yJey/vuejs3-test.git)
+VueJS - First steps with VueJS
 
-## 🔧 Tecnologías utilizadas
-* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-* ![Javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-* ![VueJs](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+### Technologies
 
-## 📌 Comentarios adicionales 
-Proyecto en progreso.
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![Javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+- ![VueJs](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
-## ⚙️ Comandos necesarios para la creación de la app React
+### Aditionals Commets
 
-``` console
-https://nodejs.org
-```
-↑ Descargar la última versión de Nodejs
+Project completed.
 
-``` console 
-npm install -g npm
-``` 
-↑ Actualizar npm a la versión más reciente
+### Getting started
 
-``` console 
-npm install -g vue/cli
-``` 
-↑ Instalar Vue.js de forma global
+↓ Launch vuejs app. [http://localhost:8080](http://localhost:8080)
 
-``` console 
-vue create [project name]
-``` 
-↑ Inicializar un nuevo proyecto Vue.js
-
-<br/>
-
-⚙️ Comandos para ejecutar el servidor
-
-``` console
+```console
 npm run serve
 ```
-↑ Iniciar el servidor. [http://localhost:8080](http://localhost:8080) para ver la página en tu navegador
 
-``` console
-npm run build
-```
-↑ Compilar el proyecto para producción
+**IMPORTANT: Keep the terminal running for the correct execution of the app.**
 
-``` console
-npm run lint
-```
-↑ Ejecutar un linter
+### App deploy
 
-**IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
+[Org Page in Vercel]()
 
-## 💻 Contacto
-* Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
+### Figma app layout
+
+[Org Page in Figma](https://www.figma.com/file/70l45ssEH6qBo9IYDe2nxe/Intro-a-React?node-id=134%3A128&t=7I0a4d3jWOfv6dHU-1)
+
+### Developer contact
+
+[LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)

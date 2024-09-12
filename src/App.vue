@@ -1,9 +1,9 @@
 <template>
-  <TeacherComponent />
+  <CycleOption />
 </template>
 
 <script lang="ts" setup>
-import TeacherComponent from "./components/TeacherComponent.vue"
+import CycleOption from "./components/CycleOption.vue"
 </script>
 
 <style></style>

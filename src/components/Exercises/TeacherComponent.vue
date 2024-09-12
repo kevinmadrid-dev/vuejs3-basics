@@ -5,22 +5,27 @@
     <div class="container">
       <div class="div-name">
         <label>Nombres</label>
+
         <input type="text" v-model="teacher.teacherName" />
       </div>
 
       <div class="div-last_name">
         <label>Apellidos</label>
+
         <input type="text" v-model="teacher.teacherLastName" />
       </div>
 
       <div class="div-dni">
         <label>DNI</label>
+
         <input type="text" v-model="teacher.teacherDni" />
       </div>
 
       <div class="div-subject">
         <label>Materias</label>
+
         <input type="text" v-model="teacherSubject" />
+
         <button @click="handleSubject()">Añadir materias</button>
       </div>
 

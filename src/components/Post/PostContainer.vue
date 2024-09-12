@@ -1,8 +1,11 @@
 <template>
   <div class="post-container">
     <PostCard />
+
     <PostCard />
+
     <PostCard />
+
     <PostCard />
   </div>
 </template>

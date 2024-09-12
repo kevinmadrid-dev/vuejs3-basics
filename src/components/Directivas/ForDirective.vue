@@ -10,14 +10,6 @@
 //v-bind:key="", es el identificador único para el for. v-bind:key === :key
 import { Ref, ref } from "vue"
 
-/*let countries: Ref<Array<string>> = ref([
-  "Spain",
-  "France",
-  "UK",
-  "Italy",
-  "Portugal"
-])*/
-
 interface ICountry {
   code: string
   name: string

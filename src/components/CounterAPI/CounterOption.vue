@@ -1,6 +1,8 @@
 <template>
   <h3>Contador: {{ counter }}</h3>
+
   <button @click="addCounter">+</button>
+
   <button @click="dropCounter">-</button>
 </template>
 

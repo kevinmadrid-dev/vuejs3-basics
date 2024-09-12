@@ -3,7 +3,8 @@
     <input type="text" v-model="inputText" />
     <p>{{ inputText }}</p>
 
-    <input type="checkbox" v-model="inputCheck" /> Acepto los términos y condiciones.
+    <input type="checkbox" v-model="inputCheck" /> Acepto los términos y
+    condiciones.
 
     <select v-model="inputSelect">
       <option value="spain">Spain</option>

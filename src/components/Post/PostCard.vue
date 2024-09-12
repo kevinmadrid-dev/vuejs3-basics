@@ -3,9 +3,9 @@
     <h3>Título</h3>
 
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum atque eveniet ad
-      ut quam iste nostrum fugiat qui laboriosam autem praesentium dignissimos nam,
-      odio adipisci sed? Minima laudantium ex mollitia?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum atque eveniet
+      ad ut quam iste nostrum fugiat qui laboriosam autem praesentium dignissimos
+      nam, odio adipisci sed? Minima laudantium ex mollitia?
     </p>
 
     <PostButton />
