@@ -24,14 +24,6 @@ npm run serve
 
 **IMPORTANT: Keep the terminal running for the correct execution of the app.**
 
-### App deploy
-
-[Org Page in Vercel]()
-
-### Figma app layout
-
-[Org Page in Figma](https://www.figma.com/file/70l45ssEH6qBo9IYDe2nxe/Intro-a-React?node-id=134%3A128&t=7I0a4d3jWOfv6dHU-1)
-
 ### Developer contact
 
 [LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)
